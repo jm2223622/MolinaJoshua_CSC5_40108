@@ -39,9 +39,7 @@ int main(int argc, char** argv) {
     cout <<"Enter how many Class C tickets were sold ";
     cin >> soldC;
     
-
     //The Math
-    cout << setprecision(2) << fixed;
     totalInc = (soldC * classC) + (soldB * classB) + (soldA * classA);
             
     //Process by mapping inputs to outputs
