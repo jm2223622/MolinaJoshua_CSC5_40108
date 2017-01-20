@@ -12,7 +12,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>Molina, Joshua_Gaddis_8th_Chap5_Prob_12.cpp</itemPath>
+      <itemPath>Molina, Joshua_Gaddis_8th_Chap5_Prob_1.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -39,7 +39,7 @@
           <standard>8</standard>
         </ccTool>
       </compileType>
-      <item path="Molina, Joshua_Gaddis_8th_Chap5_Prob_12.cpp"
+      <item path="Molina, Joshua_Gaddis_8th_Chap5_Prob_1.cpp"
             ex="false"
             tool="1"
             flavor2="0">
@@ -66,7 +66,7 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="Molina, Joshua_Gaddis_8th_Chap5_Prob_12.cpp"
+      <item path="Molina, Joshua_Gaddis_8th_Chap5_Prob_1.cpp"
             ex="false"
             tool="1"
             flavor2="0">

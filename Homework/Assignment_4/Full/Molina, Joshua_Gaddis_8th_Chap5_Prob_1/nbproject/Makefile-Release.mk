@@ -35,7 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/Molina,\ Joshua_Gaddis_8th_Chap5_Prob_12.o
+	${OBJECTDIR}/Molina,\ Joshua_Gaddis_8th_Chap5_Prob_1.o
 
 
 # C Compiler Flags
@@ -56,17 +56,17 @@ LDLIBSOPTIONS=
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
-	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/molina__joshua_gaddis_8th_chap3_prob_12.exe
+	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/molina__joshua_gaddis_8th_chap5_prob_1.exe
 
-${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/molina__joshua_gaddis_8th_chap3_prob_12.exe: ${OBJECTFILES}
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/molina__joshua_gaddis_8th_chap5_prob_1.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
-	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/molina__joshua_gaddis_8th_chap3_prob_12 ${OBJECTFILES} ${LDLIBSOPTIONS}
+	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/molina__joshua_gaddis_8th_chap5_prob_1 ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-.NO_PARALLEL:${OBJECTDIR}/Molina,\ Joshua_Gaddis_8th_Chap5_Prob_12.o
-${OBJECTDIR}/Molina,\ Joshua_Gaddis_8th_Chap5_Prob_12.o: Molina,\ Joshua_Gaddis_8th_Chap5_Prob_12.cpp
+.NO_PARALLEL:${OBJECTDIR}/Molina,\ Joshua_Gaddis_8th_Chap5_Prob_1.o
+${OBJECTDIR}/Molina,\ Joshua_Gaddis_8th_Chap5_Prob_1.o: Molina,\ Joshua_Gaddis_8th_Chap5_Prob_1.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Molina,\ Joshua_Gaddis_8th_Chap5_Prob_12.o Molina,\ Joshua_Gaddis_8th_Chap5_Prob_12.cpp
+	$(COMPILE.cc) -O2 -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Molina,\ Joshua_Gaddis_8th_Chap5_Prob_1.o Molina,\ Joshua_Gaddis_8th_Chap5_Prob_1.cpp
 
 # Subprojects
 .build-subprojects:

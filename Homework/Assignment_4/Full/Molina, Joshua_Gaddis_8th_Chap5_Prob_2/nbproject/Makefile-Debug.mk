@@ -23,7 +23,7 @@ AS=as
 # Macros
 CND_PLATFORM=Cygwin-Windows
 CND_DLIB_EXT=dll
-CND_CONF=Release
+CND_CONF=Debug
 CND_DISTDIR=dist
 CND_BUILDDIR=build
 
@@ -35,7 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/Molina,\ Joshua_Gaddis_8th_Chap5_Prob_12.o
+	${OBJECTDIR}/Molina,\ Joshua_Gaddis_8th_Chap5_Prob_2.o
 
 
 # C Compiler Flags
@@ -56,17 +56,17 @@ LDLIBSOPTIONS=
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
-	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/molina__joshua_gaddis_8th_chap3_prob_12.exe
+	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/molina__joshua_gaddis_8th_chap5_prob_2.exe
 
-${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/molina__joshua_gaddis_8th_chap3_prob_12.exe: ${OBJECTFILES}
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/molina__joshua_gaddis_8th_chap5_prob_2.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
-	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/molina__joshua_gaddis_8th_chap3_prob_12 ${OBJECTFILES} ${LDLIBSOPTIONS}
+	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/molina__joshua_gaddis_8th_chap5_prob_2 ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-.NO_PARALLEL:${OBJECTDIR}/Molina,\ Joshua_Gaddis_8th_Chap5_Prob_12.o
-${OBJECTDIR}/Molina,\ Joshua_Gaddis_8th_Chap5_Prob_12.o: Molina,\ Joshua_Gaddis_8th_Chap5_Prob_12.cpp
+.NO_PARALLEL:${OBJECTDIR}/Molina,\ Joshua_Gaddis_8th_Chap5_Prob_2.o
+${OBJECTDIR}/Molina,\ Joshua_Gaddis_8th_Chap5_Prob_2.o: Molina,\ Joshua_Gaddis_8th_Chap5_Prob_2.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Molina,\ Joshua_Gaddis_8th_Chap5_Prob_12.o Molina,\ Joshua_Gaddis_8th_Chap5_Prob_12.cpp
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Molina,\ Joshua_Gaddis_8th_Chap5_Prob_2.o Molina,\ Joshua_Gaddis_8th_Chap5_Prob_2.cpp
 
 # Subprojects
 .build-subprojects:
