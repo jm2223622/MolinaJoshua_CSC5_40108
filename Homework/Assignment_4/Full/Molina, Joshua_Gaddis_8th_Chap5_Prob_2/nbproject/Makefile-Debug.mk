@@ -35,7 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/Molina,\ Joshua_Gaddis_8th_Chap5_Prob_2.o
+	${OBJECTDIR}/Molina,\ Joshua_Gaddis_8th_Chap5_Prob_2_ASCII_CODES.o
 
 
 # C Compiler Flags
@@ -62,11 +62,11 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/molina__joshua_gaddis_8th_chap5_prob_
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/molina__joshua_gaddis_8th_chap5_prob_2 ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-.NO_PARALLEL:${OBJECTDIR}/Molina,\ Joshua_Gaddis_8th_Chap5_Prob_2.o
-${OBJECTDIR}/Molina,\ Joshua_Gaddis_8th_Chap5_Prob_2.o: Molina,\ Joshua_Gaddis_8th_Chap5_Prob_2.cpp
+.NO_PARALLEL:${OBJECTDIR}/Molina,\ Joshua_Gaddis_8th_Chap5_Prob_2_ASCII_CODES.o
+${OBJECTDIR}/Molina,\ Joshua_Gaddis_8th_Chap5_Prob_2_ASCII_CODES.o: Molina,\ Joshua_Gaddis_8th_Chap5_Prob_2_ASCII_CODES.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Molina,\ Joshua_Gaddis_8th_Chap5_Prob_2.o Molina,\ Joshua_Gaddis_8th_Chap5_Prob_2.cpp
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Molina,\ Joshua_Gaddis_8th_Chap5_Prob_2_ASCII_CODES.o Molina,\ Joshua_Gaddis_8th_Chap5_Prob_2_ASCII_CODES.cpp
 
 # Subprojects
 .build-subprojects:

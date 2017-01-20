@@ -11,6 +11,7 @@
 
 //System Libraries
 #include <iostream>
+#include <iomanip>
 #include <cmath>
 using namespace std;
 
@@ -20,25 +21,31 @@ using namespace std;
 //Such as PI, Vc, -> Math/Science values
 //as well as conversions from system of units to 
 //another
-
+const float MIN_NUM = 0;//Sets the starting point for the output.
+const float MAX_NUM = 20;//Sets the ending point for the output.
 //Function Prototypes
 
 //Executable code begins here!!!
 int main(int argc, char** argv) {
     //Declare Variables
     float Cel,
-          Fahr;   
+          Fahr,
+            num = MIN_NUM; 
     //Input values
-    cout <<"Converting Celsius temperatures to Fahrenheit. \n";
-    cout <<"Enter the temperature in Celsius ";
-    cin >> Cel;
+
 
     //Process by mapping inputs to outputs
-    Fahr =  32 + (1.8 * Cel);
-    
+
     //Output values
-cout <<"The new temperature is " << Fahr << endl;
-    
+    cout <<"Converting Celsius temperatures 0 - 20 to Fahrenheit. \n";
+    cout <<"-------------------------------------------------------"<<endl;
+    //The While Statement.
+    while (num <=MAX_NUM)
+    {
+        cout<<num<<" Celsius is "<<32 + (1.8 * num)<<" Fahrenheit."<<endl;
+        num ++;
+        
+    }
 
     //Exit stage right!
     return 0;

@@ -17,7 +17,7 @@ using namespace std;
 //Such as PI, Vc, -> Math/Science values
 //as well as conversions from system of units to 
 //another
-const int MIN_NUM = 1;
+const int MIN_NUM = 1;//Assigns starting point.
 //Function Prototypes
 
 //Executable code begins here!!!
@@ -25,26 +25,26 @@ int main(int argc, char** argv) {
     //Declare Variables
     int long Input;
     int num = MIN_NUM;
+    // Not a proper integer
+
+    //Input values
     cout << "Enter a positive integer: ";
     cin >> Input;
-    // Not a proper integer
-    while (0 >= Input)
+    //Process by mapping inputs to outputs
+    
+    //Output values
+    //The output validation.
+        while (0 >= Input)
     {
         cout << "Not a positive integer! Please try again: ";
         cin >> Input;
     }
+    //The program runs as soon as the requirements are met.
     while (num <=Input)
     {
         cout << num << ", ";
         num ++;
     }
-    
-   
-    //Input values
-    
-    //Process by mapping inputs to outputs
-    
-    //Output values
 
     //Exit stage right!
     return 0;
